@@ -75,7 +75,7 @@
 <script>
     document.getElementById("current_date").innerHTML = Date();
 
-    var num=document.Resultado.resultado;
+    var num=document.Resultado.resultado.value;
 
 if(num<30){
     document.getElementById('color').style.color='#67DA00';
